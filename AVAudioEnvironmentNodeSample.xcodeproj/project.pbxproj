@@ -14,6 +14,11 @@
 		9DACB58829391E3D00E30798 /* AVAudioEnvironmentNodeSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DACB58729391E3D00E30798 /* AVAudioEnvironmentNodeSampleTests.swift */; };
 		9DACB59229391E3D00E30798 /* AVAudioEnvironmentNodeSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DACB59129391E3D00E30798 /* AVAudioEnvironmentNodeSampleUITests.swift */; };
 		9DACB59429391E3D00E30798 /* AVAudioEnvironmentNodeSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DACB59329391E3D00E30798 /* AVAudioEnvironmentNodeSampleUITestsLaunchTests.swift */; };
+		9DACB5A429391FEB00E30798 /* beep-e.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9DACB5A029391FEB00E30798 /* beep-e.wav */; };
+		9DACB5A529391FEB00E30798 /* beep-g.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9DACB5A129391FEB00E30798 /* beep-g.wav */; };
+		9DACB5A629391FEB00E30798 /* beep-bb.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9DACB5A229391FEB00E30798 /* beep-bb.wav */; };
+		9DACB5A729391FEB00E30798 /* beep-c.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9DACB5A329391FEB00E30798 /* beep-c.wav */; };
+		9DACB5AE29392D2500E30798 /* car.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9DACB5AD29392D2500E30798 /* car.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,11 @@
 		9DACB58D29391E3D00E30798 /* AVAudioEnvironmentNodeSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVAudioEnvironmentNodeSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DACB59129391E3D00E30798 /* AVAudioEnvironmentNodeSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVAudioEnvironmentNodeSampleUITests.swift; sourceTree = "<group>"; };
 		9DACB59329391E3D00E30798 /* AVAudioEnvironmentNodeSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVAudioEnvironmentNodeSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9DACB5A029391FEB00E30798 /* beep-e.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "beep-e.wav"; sourceTree = "<group>"; };
+		9DACB5A129391FEB00E30798 /* beep-g.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "beep-g.wav"; sourceTree = "<group>"; };
+		9DACB5A229391FEB00E30798 /* beep-bb.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "beep-bb.wav"; sourceTree = "<group>"; };
+		9DACB5A329391FEB00E30798 /* beep-c.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "beep-c.wav"; sourceTree = "<group>"; };
+		9DACB5AD29392D2500E30798 /* car.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = car.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +105,7 @@
 		9DACB57429391E3B00E30798 /* AVAudioEnvironmentNodeSample */ = {
 			isa = PBXGroup;
 			children = (
+				9DACB5AA29392B8800E30798 /* resources */,
 				9DACB57529391E3B00E30798 /* AppDelegate.swift */,
 				9DACB57729391E3B00E30798 /* ViewController.swift */,
 				9DACB57929391E3D00E30798 /* Assets.xcassets */,
@@ -119,6 +130,18 @@
 				9DACB59329391E3D00E30798 /* AVAudioEnvironmentNodeSampleUITestsLaunchTests.swift */,
 			);
 			path = AVAudioEnvironmentNodeSampleUITests;
+			sourceTree = "<group>";
+		};
+		9DACB5AA29392B8800E30798 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				9DACB5AD29392D2500E30798 /* car.wav */,
+				9DACB5A229391FEB00E30798 /* beep-bb.wav */,
+				9DACB5A329391FEB00E30798 /* beep-c.wav */,
+				9DACB5A029391FEB00E30798 /* beep-e.wav */,
+				9DACB5A129391FEB00E30798 /* beep-g.wav */,
+			);
+			name = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +248,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DACB5A629391FEB00E30798 /* beep-bb.wav in Resources */,
+				9DACB5A429391FEB00E30798 /* beep-e.wav in Resources */,
+				9DACB5A529391FEB00E30798 /* beep-g.wav in Resources */,
+				9DACB5A729391FEB00E30798 /* beep-c.wav in Resources */,
+				9DACB5AE29392D2500E30798 /* car.wav in Resources */,
 				9DACB57A29391E3D00E30798 /* Assets.xcassets in Resources */,
 				9DACB57D29391E3D00E30798 /* Main.storyboard in Resources */,
 			);
